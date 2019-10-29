@@ -1,5 +1,5 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build-env
-WORKDIR /simple-feed-reader/SimpleFeedReader
+WORKDIR /simple-feed-reader .
 
 # Copy everything else and build
 RUN dotnet publish 
