@@ -1,6 +1,7 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build-env
 WORKDIR /simple-feed-reader/SimpleFeedReader
 # Copy csproj and restore as distinct layers
+RUN pwd
 RUN dotnet restore
 
 # Copy everything else and build
