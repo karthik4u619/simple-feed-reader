@@ -1,5 +1,5 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build-env
-WORKDIR /home/runner/work/simple-feed-reader/simple-feed-reader
+WORKDIR /home/runner/work/simple-feed-reader/simple-feed-reader/SimpleFeedReader/
 
 # Copy csproj and restore as distinct layers
 COPY *.csproj ./
