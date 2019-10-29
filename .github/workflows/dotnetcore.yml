@@ -3,7 +3,7 @@ name: .NET Core build
 on: [push]
 
 jobs:
-  build-and-publish:
+  build:
 
     runs-on: ubuntu-latest
 
